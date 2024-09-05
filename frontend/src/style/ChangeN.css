@@ -1,0 +1,41 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.input-field {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 375px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
